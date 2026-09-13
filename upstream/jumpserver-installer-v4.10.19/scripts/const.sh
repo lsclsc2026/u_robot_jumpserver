@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+#
+BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" &>/dev/null && pwd)"
+
+export SCRIPT_DIR="$BASE_DIR"
+PROJECT_DIR=$(dirname "${SCRIPT_DIR}")
+
+if [[ ! "$(echo $PATH | grep /usr/local/bin)" ]]; then
+  export PATH=/usr/local/bin:$PATH
+fi
+
+# 国际化处理
+export TEXTDOMAINDIR=$PROJECT_DIR/locale
+export TEXTDOMAIN=jumpserver-installer
+
+export CONFIG_DIR="${JS_CONFIG_DIR:-/opt/jumpserver/config}"
+export CONFIG_FILE=$CONFIG_DIR/config.txt
+export CONFIG_SAFE_FILE=$CONFIG_DIR/config_safe.txt
+
+# Compose 项目设置
+export COMPOSE_PROJECT_NAME=jms
+# export COMPOSE_HTTP_TIMEOUT=3600
+# export DOCKER_CLIENT_TIMEOUT=3600
+
+STATIC_ENV=${PROJECT_DIR}/static.env
+# shellcheck source=../static.env
+. "${STATIC_ENV}"
+
+export OS=$(uname -s)
+export DOCKER_VERSION=29.7.2
+export DOCKER_COMPOSE_VERSION=v2.40.3
+
+ARCH=$(uname -m)
+if [ -n "${BUILD_ARCH}" ]; then
+  ARCH=${BUILD_ARCH}
+fi
+
+export ARCH
+export DOCKER_BIN_URL="https://download.docker.com/linux/static/stable/${ARCH}/docker-${DOCKER_VERSION}.tgz"
+export COMPOSE_BIN_URL="https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-linux-${ARCH}"

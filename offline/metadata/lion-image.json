@@ -1,0 +1,8 @@
+{
+  "ref": "jumpserver/lion:v4.10.19-ce",
+  "manifest_digest": "sha256:2836cf9a4720213f7b3a81cdd170658fe5ad2ec2a87aafb122fb444908fb8bda",
+  "image_id": "sha256:d3e2e626ff0fb528b2e3a1fa3d578648b65a206333dabfae27458c19f65ef793",
+  "file": "jumpserver_lion_v4.10.19-ce.tar",
+  "size": 141035520,
+  "sha256": "0cef28d45727e3cb9aaff2548c1bdc1de123465ebc2c930f4b74c381ddff2a0b"
+}

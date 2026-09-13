@@ -1,0 +1,23 @@
+services:
+  razor:
+    image: ${NAMESPACE:-jumpserver}/razor:${VERSION}
+    container_name: jms_razor
+    hostname: jms_razor
+    ulimits:
+      core: 0
+    restart: always
+    env_file:
+      - ${CONFIG_SAFE_FILE}
+    ports:
+      - ${RAZOR_RDP_PORT:-3389}:3389
+    volumes:
+      - ${VOLUME_DIR}/razor/data:/opt/razor/data
+      - ${CONFIG_DIR}/nginx/cert:/opt/razor/cert
+    healthcheck:
+      test: "check http://localhost:8084/razor/health/"
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+    networks:
+      - net

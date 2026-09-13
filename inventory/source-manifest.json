@@ -1,0 +1,1691 @@
+{
+  "source_root": "/home/unitree/jumpserver-handoff-20260913",
+  "generated_date": "2026-09-13",
+  "scope": "本地文件来源及完整性，不是功能测试",
+  "files": [
+    {
+      "source": "README-堡垒机交接总说明.md",
+      "source_bytes": 16234,
+      "source_sha256": "aa28d74a545b92cbb05a006fb2ce15210d1459db5bc0c1603edff880218bb738",
+      "status": "excluded",
+      "reason": "历史记录可能含凭据/个人数据和过期状态；根据源码重写中文文档，不原样发布"
+    },
+    {
+      "source": "SHA256SUMS",
+      "source_bytes": 23942,
+      "source_sha256": "828f4ee1090d4c7592c5bf20071902641c3c938d2d1c156e1e2446ca28fe56c5",
+      "status": "excluded",
+      "reason": "原交接索引/校验范围不适用于发布副本；重新生成逐文件来源清单"
+    },
+    {
+      "source": "code/local/add-jumpserver-executor.py",
+      "source_bytes": 7505,
+      "source_sha256": "f27dc740e9bc3b5c3947fb06df7031616c68e3f20394d58c543c8a4312664bed",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "code/local/add-jumpserver-executor.py",
+      "published_bytes": 7505,
+      "published_sha256": "f27dc740e9bc3b5c3947fb06df7031616c68e3f20394d58c543c8a4312664bed"
+    },
+    {
+      "source": "code/local/configure-nvidia-xrdp.py",
+      "source_bytes": 3297,
+      "source_sha256": "bea7a17bd84454d1efd0b052e68b9c7a5c08f741d024a5fb6ca1b6e3380eae00",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "code/local/configure-nvidia-xrdp.py",
+      "published_bytes": 3297,
+      "published_sha256": "bea7a17bd84454d1efd0b052e68b9c7a5c08f741d024a5fb6ca1b6e3380eae00"
+    },
+    {
+      "source": "code/local/diagnose-edge-access.py",
+      "source_bytes": 5215,
+      "source_sha256": "ed8874f8656054dba56439a083470431e0fe09830a3d56836c7957df4459db02",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "code/local/diagnose-edge-access.py",
+      "published_bytes": 5215,
+      "published_sha256": "ed8874f8656054dba56439a083470431e0fe09830a3d56836c7957df4459db02"
+    },
+    {
+      "source": "code/local/diagnose-jumpserver-import.py",
+      "source_bytes": 2980,
+      "source_sha256": "6f3c35ac964b1920fc86fe80879a00101a4f4469310e1c0ec164a9bbc73a2b86",
+      "status": "modified",
+      "reason": "删除固定口令/真实用户名，改为交互式运行时输入",
+      "published_path": "code/local/diagnose-jumpserver-import.py",
+      "published_bytes": 2888,
+      "published_sha256": "f7e2e612c5bbbc9a38ee9cf50d0cdf30c19d476e01a427c68080829e974e9769"
+    },
+    {
+      "source": "code/local/diagnose-jumpserver-login.py",
+      "source_bytes": 2301,
+      "source_sha256": "fbbca02336f8a7a2d91739f9960b6001caa749733c77b4707bb4c4b46b22656d",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "code/local/diagnose-jumpserver-login.py",
+      "published_bytes": 2301,
+      "published_sha256": "fbbca02336f8a7a2d91739f9960b6001caa749733c77b4707bb4c4b46b22656d"
+    },
+    {
+      "source": "code/local/diagnose-jumpserver-operator-login.py",
+      "source_bytes": 2768,
+      "source_sha256": "38f88fb74ec470ad1acfd21aa656581fa4c189bd2fddeab02e5d1ca69712984c",
+      "status": "modified",
+      "reason": "删除固定口令/真实用户名，改为交互式运行时输入",
+      "published_path": "code/local/diagnose-jumpserver-operator-login.py",
+      "published_bytes": 3166,
+      "published_sha256": "e81066cfa968e1d19df4ffd83b6d4567bc3b7c783c1116eaa930069d36bc1557"
+    },
+    {
+      "source": "code/local/download-images.py",
+      "source_bytes": 1387,
+      "source_sha256": "c2bcb2bbbb7d914cee9293fe3f1b49c7431b3978e8eb8c94c368a54368dfc74e",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "code/local/download-images.py",
+      "published_bytes": 1387,
+      "published_sha256": "c2bcb2bbbb7d914cee9293fe3f1b49c7431b3978e8eb8c94c368a54368dfc74e"
+    },
+    {
+      "source": "code/local/download-lion.py",
+      "source_bytes": 1873,
+      "source_sha256": "1a6398fa706ee8a0bf20f39d68554463b47cbbd1bd55edb5a245a8811006ef62",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "code/local/download-lion.py",
+      "published_bytes": 1873,
+      "published_sha256": "1a6398fa706ee8a0bf20f39d68554463b47cbbd1bd55edb5a245a8811006ef62"
+    },
+    {
+      "source": "code/local/edge_finalize.py",
+      "source_bytes": 8995,
+      "source_sha256": "137f1442eb84a358cd3dbe779fafe634f8448db3a8296325ddcbdde44b9afe7d",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "code/local/edge_finalize.py",
+      "published_bytes": 8995,
+      "published_sha256": "137f1442eb84a358cd3dbe779fafe634f8448db3a8296325ddcbdde44b9afe7d"
+    },
+    {
+      "source": "code/local/edge_wizard.py",
+      "source_bytes": 6146,
+      "source_sha256": "c41d3248f84c0b36a1948c1fcb2dfe28c2848494c1eec90b88f993ea2f6487f2",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "code/local/edge_wizard.py",
+      "published_bytes": 6146,
+      "published_sha256": "c41d3248f84c0b36a1948c1fcb2dfe28c2848494c1eec90b88f993ea2f6487f2"
+    },
+    {
+      "source": "code/local/enable-jumpserver-gui.py",
+      "source_bytes": 4928,
+      "source_sha256": "eac34285c9899c28f5e3935963860dfb92b8bc2fd0e0b5832aec30c4762126f3",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "code/local/enable-jumpserver-gui.py",
+      "published_bytes": 4928,
+      "published_sha256": "eac34285c9899c28f5e3935963860dfb92b8bc2fd0e0b5832aec30c4762126f3"
+    },
+    {
+      "source": "code/local/enable-jumpserver-lan-ssh.py",
+      "source_bytes": 3801,
+      "source_sha256": "8ab58d3a79c83ec1b28257e0c3befd535b7ebd96452bb6bcf53cb63827490a0b",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "code/local/enable-jumpserver-lan-ssh.py",
+      "published_bytes": 3801,
+      "published_sha256": "8ab58d3a79c83ec1b28257e0c3befd535b7ebd96452bb6bcf53cb63827490a0b"
+    },
+    {
+      "source": "code/local/enable-jumpserver-lan.py",
+      "source_bytes": 8713,
+      "source_sha256": "e98222c25989c9044e6fd77f327dae29e9088dc44680dd30a5b4ceaa698c221d",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "code/local/enable-jumpserver-lan.py",
+      "published_bytes": 8713,
+      "published_sha256": "e98222c25989c9044e6fd77f327dae29e9088dc44680dd30a5b4ceaa698c221d"
+    },
+    {
+      "source": "code/local/finish-executor-download.py",
+      "source_bytes": 2250,
+      "source_sha256": "dbdb2d88466c704f69729e541b14d2cc0598294a79d3a313329f66fe41593fea",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "code/local/finish-executor-download.py",
+      "published_bytes": 2250,
+      "published_sha256": "dbdb2d88466c704f69729e541b14d2cc0598294a79d3a313329f66fe41593fea"
+    },
+    {
+      "source": "code/local/fix-edge-rdp-parameters.py",
+      "source_bytes": 2480,
+      "source_sha256": "b855c4fe5599c17648914487aff05f974008062027d4b66ed96e549f60b63fe3",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "code/local/fix-edge-rdp-parameters.py",
+      "published_bytes": 2480,
+      "published_sha256": "b855c4fe5599c17648914487aff05f974008062027d4b66ed96e549f60b63fe3"
+    },
+    {
+      "source": "code/local/fix-edge-rdp-start.py",
+      "source_bytes": 2791,
+      "source_sha256": "be92bf2043386fade5f814e61f31f502bdf66eadeb5adb6fdaf24324542af3e3",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "code/local/fix-edge-rdp-start.py",
+      "published_bytes": 2791,
+      "published_sha256": "be92bf2043386fade5f814e61f31f502bdf66eadeb5adb6fdaf24324542af3e3"
+    },
+    {
+      "source": "code/local/fix-edge-xsessionrc.py",
+      "source_bytes": 1608,
+      "source_sha256": "b3f077231b57e9da52dd538c1eb2b68af479225d74628bb0b62ca5689f7afaf5",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "code/local/fix-edge-xsessionrc.py",
+      "published_bytes": 1608,
+      "published_sha256": "b3f077231b57e9da52dd538c1eb2b68af479225d74628bb0b62ca5689f7afaf5"
+    },
+    {
+      "source": "code/local/install-jumpserver-laptop.py",
+      "source_bytes": 19871,
+      "source_sha256": "92cab43ad784fbfe9cad2ca21ed98ac3b57358b3383220556d05b14948ccba3d",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "code/local/install-jumpserver-laptop.py",
+      "published_bytes": 19871,
+      "published_sha256": "92cab43ad784fbfe9cad2ca21ed98ac3b57358b3383220556d05b14948ccba3d"
+    },
+    {
+      "source": "code/local/recover-jumpserver-admin.sh",
+      "source_bytes": 2058,
+      "source_sha256": "1b80709b08bb73516e41b0ff0508ad092bc4e9052f6e40f7999230fb567af31d",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "code/local/recover-jumpserver-admin.sh",
+      "published_bytes": 2058,
+      "published_sha256": "1b80709b08bb73516e41b0ff0508ad092bc4e9052f6e40f7999230fb567af31d"
+    },
+    {
+      "source": "code/local/restrict-edge-ssh.py",
+      "source_bytes": 3158,
+      "source_sha256": "36e46df746354daff226c3c386aa8fe50f3a5c5ba0a6beaf2afeee0b453b10aa",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "code/local/restrict-edge-ssh.py",
+      "published_bytes": 3158,
+      "published_sha256": "36e46df746354daff226c3c386aa8fe50f3a5c5ba0a6beaf2afeee0b453b10aa"
+    },
+    {
+      "source": "code/local/setup-edge-rdp.py",
+      "source_bytes": 6160,
+      "source_sha256": "ccf0b714e46e0a516f3c8c13c70f8a8cc14cdb27398d8b9ee074084419cbfaa1",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "code/local/setup-edge-rdp.py",
+      "published_bytes": 6160,
+      "published_sha256": "ccf0b714e46e0a516f3c8c13c70f8a8cc14cdb27398d8b9ee074084419cbfaa1"
+    },
+    {
+      "source": "code/local/setup_edge_desktop.py",
+      "source_bytes": 12769,
+      "source_sha256": "cf206ce240d4614970c1c4afb3510b9fb5b76effe3b3079dd2ce3edf91dd5ce0",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "code/local/setup_edge_desktop.py",
+      "published_bytes": 12769,
+      "published_sha256": "cf206ce240d4614970c1c4afb3510b9fb5b76effe3b3079dd2ce3edf91dd5ce0"
+    },
+    {
+      "source": "code/local/switch-jmsdesk-ubuntu.py",
+      "source_bytes": 2269,
+      "source_sha256": "f56433f3aea2c9e90c712a4afc1f8af8ae889cb5722ab88c217189f083ea1f3e",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "code/local/switch-jmsdesk-ubuntu.py",
+      "published_bytes": 2269,
+      "published_sha256": "f56433f3aea2c9e90c712a4afc1f8af8ae889cb5722ab88c217189f083ea1f3e"
+    },
+    {
+      "source": "code/local/test_edge_desktop.py",
+      "source_bytes": 1785,
+      "source_sha256": "4f6b44d24ac3d69015eee1f3cca016409da015181e51252be0d7df577ad94603",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "code/local/test_edge_desktop.py",
+      "published_bytes": 1785,
+      "published_sha256": "4f6b44d24ac3d69015eee1f3cca016409da015181e51252be0d7df577ad94603"
+    },
+    {
+      "source": "code/local/test_edge_finalize.py",
+      "source_bytes": 1432,
+      "source_sha256": "3d546788994029cddfa62d275c3baa46d695c379b737dee760df076fcfc54fde",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "code/local/test_edge_finalize.py",
+      "published_bytes": 1432,
+      "published_sha256": "3d546788994029cddfa62d275c3baa46d695c379b737dee760df076fcfc54fde"
+    },
+    {
+      "source": "code/local/test_edge_wizard.py",
+      "source_bytes": 1405,
+      "source_sha256": "3be0ed2301f3252f1956ae3b0bc29efcad0a331ee673165e6f457f6238778c95",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "code/local/test_edge_wizard.py",
+      "published_bytes": 1405,
+      "published_sha256": "3be0ed2301f3252f1956ae3b0bc29efcad0a331ee673165e6f457f6238778c95"
+    },
+    {
+      "source": "code/local/test_executor_data_alias.py",
+      "source_bytes": 1532,
+      "source_sha256": "a0e31e1af861c98a7cb8ae22f87d62a1804a803d3ab55d839899d188dd573f6d",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "code/local/test_executor_data_alias.py",
+      "published_bytes": 1532,
+      "published_sha256": "a0e31e1af861c98a7cb8ae22f87d62a1804a803d3ab55d839899d188dd573f6d"
+    },
+    {
+      "source": "code/local/test_image_loading.py",
+      "source_bytes": 2728,
+      "source_sha256": "cadd6325d4f28c3ba70683c8abc6456bb50105ad4272ea9f403d10c2333beed8",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "code/local/test_image_loading.py",
+      "published_bytes": 2728,
+      "published_sha256": "cadd6325d4f28c3ba70683c8abc6456bb50105ad4272ea9f403d10c2333beed8"
+    },
+    {
+      "source": "docs/history/2026-09-08-jumpserver-tailscale.md",
+      "source_bytes": 22965,
+      "source_sha256": "e733e25b9dd134d9f2c8cc5eee758b9c95f033301eeffd36ad0207c6ac9ac7a6",
+      "status": "excluded",
+      "reason": "历史记录可能含凭据/个人数据和过期状态；根据源码重写中文文档，不原样发布"
+    },
+    {
+      "source": "docs/history/DEPLOYMENT-NOTES.md",
+      "source_bytes": 4407,
+      "source_sha256": "dfc1ae835dbb97c2b2b01d96c4a5ee066f74ac68d5543289b492b0b3b377cb01",
+      "status": "excluded",
+      "reason": "历史记录可能含凭据/个人数据和过期状态；根据源码重写中文文档，不原样发布"
+    },
+    {
+      "source": "docs/history/jumpserver-laptop-progress.md",
+      "source_bytes": 17286,
+      "source_sha256": "1a6b5765bba284e50bce8dc40e5a9184f981fde26fa29d311c6e007a852fbbde",
+      "status": "excluded",
+      "reason": "历史记录可能含凭据/个人数据和过期状态；根据源码重写中文文档，不原样发布"
+    },
+    {
+      "source": "docs/history/jumpserver-server-historical.crt",
+      "source_bytes": 1493,
+      "source_sha256": "1db18f67a77bcf4862e666023ab6a5c7ea6e63a540a175b2a0eadcbbb4ffda52",
+      "status": "excluded",
+      "reason": "历史记录可能含凭据/个人数据和过期状态；根据源码重写中文文档，不原样发布"
+    },
+    {
+      "source": "docs/history/prepare-jumpserver-runtime.sh",
+      "source_bytes": 2168,
+      "source_sha256": "fb8b4e37739969596c3d3c1b9ae08ff35513abf099fe9641e6bf32061d58f56f",
+      "status": "excluded",
+      "reason": "历史记录可能含凭据/个人数据和过期状态；根据源码重写中文文档，不原样发布"
+    },
+    {
+      "source": "docs/交互式部署与收尾说明.md",
+      "source_bytes": 11803,
+      "source_sha256": "a8526255a9a7c6431df1270e797be275ee4f84a3d94523d2e9e42bc1d89a1984",
+      "status": "excluded",
+      "reason": "历史记录可能含凭据/个人数据和过期状态；根据源码重写中文文档，不原样发布"
+    },
+    {
+      "source": "docs/新增下位机接入操作手册.md",
+      "source_bytes": 30463,
+      "source_sha256": "b5706ebaaa9cda0391638ac77ff578e86ea385f2eaddfd7ae2281ad3a139283f",
+      "status": "excluded",
+      "reason": "历史记录可能含凭据/个人数据和过期状态；根据源码重写中文文档，不原样发布"
+    },
+    {
+      "source": "docs/通用下位机脚本使用说明.md",
+      "source_bytes": 7544,
+      "source_sha256": "a6548afae961bbff74cead5cafc13e7ecff276b69aaf391ad104a5b3bfa10380",
+      "status": "excluded",
+      "reason": "历史记录可能含凭据/个人数据和过期状态；根据源码重写中文文档，不原样发布"
+    },
+    {
+      "source": "inventory/code-index.json",
+      "source_bytes": 7654,
+      "source_sha256": "aecfa09300b2303f919552d961c27bfa94644e969861c7d752098c3d46babafe",
+      "status": "excluded",
+      "reason": "原交接索引/校验范围不适用于发布副本；重新生成逐文件来源清单"
+    },
+    {
+      "source": "inventory/verification.json",
+      "source_bytes": 399,
+      "source_sha256": "1760f979b43240f873d340f5c115cc979842aa686639afc04d8915c12d571364",
+      "status": "excluded",
+      "reason": "原交接索引/校验范围不适用于发布副本；重新生成逐文件来源清单"
+    },
+    {
+      "source": "inventory/脚本索引.md",
+      "source_bytes": 4556,
+      "source_sha256": "27b7a3e43d81001c4746b9ca68af6e0dd9a5b8497a1a6b2ce48b3166ee7c72f1",
+      "status": "modified",
+      "reason": "按发布路径重写中文脚本索引；不是业务逻辑修改",
+      "published_path": "inventory/脚本索引.md",
+      "published_bytes": 4940,
+      "published_sha256": "57a7c71d01124512cb91975ca9e4128b926db28202c3b7d8cec7d6d22fb9b415"
+    },
+    {
+      "source": "offline/bin/crane",
+      "source_bytes": 11870370,
+      "source_sha256": "8e75c326adb43b053cfd78b9b987663f8f4fe4557f4d3915905643f25c730992",
+      "status": "excluded",
+      "reason": "外部二进制非业务源码；留本机，不随仓库重复分发"
+    },
+    {
+      "source": "offline/images/jumpserver_ansible-executor_pinned.tar",
+      "source_bytes": 329164800,
+      "source_sha256": "748b22003de349671375c9a7253ccb30008c382a6212bc6f61bde225c3b333e2",
+      "status": "excluded",
+      "reason": "大体积离线镜像留本机；保留版本/摘要/尺寸/原 tar 校验及获取说明"
+    },
+    {
+      "source": "offline/images/jumpserver_core_v4.10.19-ce.tar",
+      "source_bytes": 292944896,
+      "source_sha256": "a36c7bbdd771059f1d596c18d3b77da7ad960ece443be1f87e0073a494265c14",
+      "status": "excluded",
+      "reason": "大体积离线镜像留本机；保留版本/摘要/尺寸/原 tar 校验及获取说明"
+    },
+    {
+      "source": "offline/images/jumpserver_koko_v4.10.19-ce.tar",
+      "source_bytes": 229022208,
+      "source_sha256": "b8c86317bb7fc88e8f6133185e50b814e700d884ad24d64a4b9613d60de33282",
+      "status": "excluded",
+      "reason": "大体积离线镜像留本机；保留版本/摘要/尺寸/原 tar 校验及获取说明"
+    },
+    {
+      "source": "offline/images/jumpserver_lion_v4.10.19-ce.tar",
+      "source_bytes": 141035520,
+      "source_sha256": "0cef28d45727e3cb9aaff2548c1bdc1de123465ebc2c930f4b74c381ddff2a0b",
+      "status": "excluded",
+      "reason": "大体积离线镜像留本机；保留版本/摘要/尺寸/原 tar 校验及获取说明"
+    },
+    {
+      "source": "offline/images/jumpserver_web_v4.10.19-ce.tar",
+      "source_bytes": 100617216,
+      "source_sha256": "e6f25c54fee36b3413849fdfbc522b4ff0a9fac2b694b1029bfbf5eb292a701e",
+      "status": "excluded",
+      "reason": "大体积离线镜像留本机；保留版本/摘要/尺寸/原 tar 校验及获取说明"
+    },
+    {
+      "source": "offline/images/manifest.json",
+      "source_bytes": 1935,
+      "source_sha256": "405fa141ad0cd08ac4259523696ec0cba3c6f5955ad66a2faed6b495940aae10",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "offline/images/manifest.json",
+      "published_bytes": 1935,
+      "published_sha256": "405fa141ad0cd08ac4259523696ec0cba3c6f5955ad66a2faed6b495940aae10"
+    },
+    {
+      "source": "offline/images/postgres_16.15-bookworm.tar",
+      "source_bytes": 155136000,
+      "source_sha256": "fdd3c6b032c94d37c717bbe57a834560ca02a483f19ab319f87e53b2c4769507",
+      "status": "excluded",
+      "reason": "大体积离线镜像留本机；保留版本/摘要/尺寸/原 tar 校验及获取说明"
+    },
+    {
+      "source": "offline/images/redis_7.4.10-bookworm.tar",
+      "source_bytes": 43600896,
+      "source_sha256": "01365eb5ca38fb3b4eeeb0f8d11f61bebf888083fe7eeddfdaff7124edea7e01",
+      "status": "excluded",
+      "reason": "大体积离线镜像留本机；保留版本/摘要/尺寸/原 tar 校验及获取说明"
+    },
+    {
+      "source": "offline/metadata/ansible-image-parallel.json",
+      "source_bytes": 388,
+      "source_sha256": "db362981a3efb8285a1efe35fb0b566375e3fe5c34b5e9c62158db707e225fce",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "offline/metadata/ansible-image-parallel.json",
+      "published_bytes": 388,
+      "published_sha256": "db362981a3efb8285a1efe35fb0b566375e3fe5c34b5e9c62158db707e225fce"
+    },
+    {
+      "source": "offline/metadata/ansible-image.json",
+      "source_bytes": 388,
+      "source_sha256": "db362981a3efb8285a1efe35fb0b566375e3fe5c34b5e9c62158db707e225fce",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "offline/metadata/ansible-image.json",
+      "published_bytes": 388,
+      "published_sha256": "db362981a3efb8285a1efe35fb0b566375e3fe5c34b5e9c62158db707e225fce"
+    },
+    {
+      "source": "offline/metadata/ansible-registry-manifest.json",
+      "source_bytes": 3897,
+      "source_sha256": "42dd7564a9a50d239ae1502b426b132f3431a357827f55f5fa8fe549a7430750",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "offline/metadata/ansible-registry-manifest.json",
+      "published_bytes": 3897,
+      "published_sha256": "42dd7564a9a50d239ae1502b426b132f3431a357827f55f5fa8fe549a7430750"
+    },
+    {
+      "source": "offline/metadata/core-manifest.json",
+      "source_bytes": 2010,
+      "source_sha256": "99b2fd9100b0434ba4c30ff135c2b41387776a141f06d0c6bb39dc0d9b6321cc",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "offline/metadata/core-manifest.json",
+      "published_bytes": 2010,
+      "published_sha256": "99b2fd9100b0434ba4c30ff135c2b41387776a141f06d0c6bb39dc0d9b6321cc"
+    },
+    {
+      "source": "offline/metadata/lion-image.json",
+      "source_bytes": 373,
+      "source_sha256": "52cf2f7e87a6d93239e70d492359fa40ca546d26c9f151464dc1a9326ed6d1ea",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "offline/metadata/lion-image.json",
+      "published_bytes": 373,
+      "published_sha256": "52cf2f7e87a6d93239e70d492359fa40ca546d26c9f151464dc1a9326ed6d1ea"
+    },
+    {
+      "source": "snapshots/jumpserver-server-snapshot-20260913.zip",
+      "source_bytes": 66734,
+      "source_sha256": "690329ca1650a3dc9ac87021326c0bda2489a0011a2b4eb894b7ac8db1e958fc",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/collection-report.json",
+      "source_bytes": 16218,
+      "source_sha256": "54bdce44065f161998cf7437c11d74166eca2b962133e845c80f45deaadc6985",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/home/ksxq/add-jumpserver-executor.py",
+      "source_bytes": 7505,
+      "source_sha256": "f27dc740e9bc3b5c3947fb06df7031616c68e3f20394d58c543c8a4312664bed",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/home/ksxq/diagnose-jumpserver-import.py",
+      "source_bytes": 2980,
+      "source_sha256": "6f3c35ac964b1920fc86fe80879a00101a4f4469310e1c0ec164a9bbc73a2b86",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/home/ksxq/diagnose-jumpserver-login.py",
+      "source_bytes": 2301,
+      "source_sha256": "fbbca02336f8a7a2d91739f9960b6001caa749733c77b4707bb4c4b46b22656d",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/home/ksxq/diagnose-jumpserver-operator-login.py",
+      "source_bytes": 2768,
+      "source_sha256": "38f88fb74ec470ad1acfd21aa656581fa4c189bd2fddeab02e5d1ca69712984c",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/home/ksxq/enable-jumpserver-gui.py",
+      "source_bytes": 4928,
+      "source_sha256": "eac34285c9899c28f5e3935963860dfb92b8bc2fd0e0b5832aec30c4762126f3",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/home/ksxq/enable-jumpserver-lan-ssh.py",
+      "source_bytes": 3801,
+      "source_sha256": "8ab58d3a79c83ec1b28257e0c3befd535b7ebd96452bb6bcf53cb63827490a0b",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/home/ksxq/enable-jumpserver-lan.py",
+      "source_bytes": 8713,
+      "source_sha256": "e98222c25989c9044e6fd77f327dae29e9088dc44680dd30a5b4ceaa698c221d",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/home/ksxq/install-jumpserver-laptop.before-image-id-fix.py",
+      "source_bytes": 17813,
+      "source_sha256": "1c69947dde67cf3262f46d84214ce90f539db2f13894f215b46e140001b4464e",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/home/ksxq/install-jumpserver-laptop.py",
+      "source_bytes": 19871,
+      "source_sha256": "92cab43ad784fbfe9cad2ca21ed98ac3b57358b3383220556d05b14948ccba3d",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/home/ksxq/jumpserver-deployment/DEPLOYMENT-NOTES.md",
+      "source_bytes": 4407,
+      "source_sha256": "dfc1ae835dbb97c2b2b01d96c4a5ee066f74ac68d5543289b492b0b3b377cb01",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/home/ksxq/jumpserver-deployment/PROGRESS.md",
+      "source_bytes": 17286,
+      "source_sha256": "1a6b5765bba284e50bce8dc40e5a9184f981fde26fa29d311c6e007a852fbbde",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/home/ksxq/jumpserver-deployment/jumpserver-server.crt",
+      "source_bytes": 1501,
+      "source_sha256": "e2b1ac776276c214fdfcfc369731a3934688484ff2424d5a06df55dbe7cb28e6",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/home/ksxq/ntfs-readonly-check.sh",
+      "source_bytes": 2970,
+      "source_sha256": "bf8e18ad4d9b952c0fc1652096ac7bdcca86c6f671197dd4094823c71e8f63e5",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/home/ksxq/prepare-jumpserver-runtime.sh",
+      "source_bytes": 2168,
+      "source_sha256": "fb8b4e37739969596c3d3c1b9ae08ff35513abf099fe9641e6bf32061d58f56f",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/home/ksxq/recover-jumpserver-admin.sh",
+      "source_bytes": 2058,
+      "source_sha256": "1b80709b08bb73516e41b0ff0508ad092bc4e9052f6e40f7999230fb567af31d",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/home/ksxq/setup-jumpserver-usb.py",
+      "source_bytes": 4979,
+      "source_sha256": "577cd3eff459f1edee8b2acc09c650328cdbdd33385e3c168bd1f995813f6934",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/cap_addon.yml",
+      "source_bytes": 375,
+      "source_sha256": "6dac5f66507ecbc98cd4d7aae5405e750797260fbc53d7e23cdb3cc644514276",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/celery.yml",
+      "source_bytes": 648,
+      "source_sha256": "d9a4797d2aebe039c052a5eccfd8a2d38bed95c00e26e5ff876ac22f96b6af4b",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/chen.yml",
+      "source_bytes": 496,
+      "source_sha256": "c909e64f94aceff005ec3b9d04228c971a4666470d333468d90e5bebe02a3ce1",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/core.yml",
+      "source_bytes": 694,
+      "source_sha256": "b895a0838fc454a5ca73d89e25ef4a15f2fb723a74bc2a85e8d912d395e5e2ba",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/es.yml",
+      "source_bytes": 923,
+      "source_sha256": "a47d100cf2b336ff8dadb5999f9bce81b8e995b6381835a92cf9639cdf4f0aeb",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/facelive.yml",
+      "source_bytes": 465,
+      "source_sha256": "abad72e2664ca568f5ca478da7468d0d0ceddf65815170385a7f902e44f21a34",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/init-db.yml",
+      "source_bytes": 325,
+      "source_sha256": "927272d2fc8393ee3f9fd8efbbe2b4b37f083493152a1da97e1fe4d9e43947b5",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/koko.yml",
+      "source_bytes": 584,
+      "source_sha256": "c9e62224d13adc136b0b4a39b6ed79cd14d1fd715a0cca355e12d5950cb96fbb",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/lion.yml",
+      "source_bytes": 496,
+      "source_sha256": "8262e13eb69dcc5e882850a6b3c1140913112a2755943bb5f004e6e74a772f84",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/loki.yml",
+      "source_bytes": 821,
+      "source_sha256": "a1d5ed3a881e6d506d3ebc55aea5b1e6b572234d23e350f44b730e8b31e9a978",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/magnus.yml",
+      "source_bytes": 550,
+      "source_sha256": "f883e6d05c8aa4a594e1c0c09fcd05291d33860883ff591f0d5ca671b711d71c",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/mariadb.yml",
+      "source_bytes": 683,
+      "source_sha256": "447de066f1caf655154560839f921188c0dc14c218e7c17c2efbfd52ed283bc9",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/minio.yml",
+      "source_bytes": 627,
+      "source_sha256": "baa13b8d26bb6030604880d63294b7d12c45661cd36cc1c4d37149307041fcce",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/mysql.yml",
+      "source_bytes": 604,
+      "source_sha256": "c0f793e63edb02f9241f76d406508e9f203ddf52adab8009118f5a082b03422c",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/nec.yml",
+      "source_bytes": 537,
+      "source_sha256": "1bdff6a9ad9437a908208f719807b6d4ca4361d69bed37c35fdbba1e3bc8cc8f",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/network-v6.yml",
+      "source_bytes": 179,
+      "source_sha256": "cda149c77841479ab90f24bc851dcc9c9a5f65955db045c8a93b1597b37bc000",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/network.yml",
+      "source_bytes": 117,
+      "source_sha256": "d751ea8ff379c94ab3ae3a2047b8b538b960776350acf59bafbc614cf0d920ea",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/openbao.yml",
+      "source_bytes": 1805,
+      "source_sha256": "fb50e848e38721b0d564358acc81dc922781040a1a0eddef069cf42cc8e0c5f1",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/panda.yml",
+      "source_bytes": 507,
+      "source_sha256": "91dc2cff38e22ac3a75850326e0a6387d14551d0b0c3651087c8a584f5667f50",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/postgresql.port.yml",
+      "source_bytes": 76,
+      "source_sha256": "9ab046d06da92f8728cf2619dcb188e16cfe2aac816c7c1dde59249f1b1a54d1",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/postgresql.yml",
+      "source_bytes": 501,
+      "source_sha256": "6df7ebeabe4d4cf0c91d29b348498210affcdcf80ab5d1400a05244ec10cb805",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/razor.yml",
+      "source_bytes": 552,
+      "source_sha256": "ad45e4e0faaca9a44d6268b6c2c5c1479dc12d630291ff5775251f3431d749e9",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/receptor.yml",
+      "source_bytes": 501,
+      "source_sha256": "63eab2afc36d7ece9c36643719bc60b03ca983de6c97f050cc217040797949e4",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/redis.port.yml",
+      "source_bytes": 66,
+      "source_sha256": "ca096830c0cf603f5d753874e7f85e3c400bb387633a8ef68530a241baf9bdba",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/redis.yml",
+      "source_bytes": 641,
+      "source_sha256": "3172d0b869ee99e10c42a183a88fd5e5d9ae26c57292e847b0e0d25043bf5cd9",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/video.yml",
+      "source_bytes": 488,
+      "source_sha256": "61ae6409e941082c6395c80c883866ef5b0c568ccafeec82b25395f1bd0985e3",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/web.http.yml",
+      "source_bytes": 55,
+      "source_sha256": "3a0eaf462bb9891f6d29f5fc30be9d6622302964e2bb0beee29ce13cbc1d9e84",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/web.https.yml",
+      "source_bytes": 361,
+      "source_sha256": "690aefe26ff78e9ade9fd900fb18ad4323c6b4c415163bcf494e4656b7b6a815",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/web.yml",
+      "source_bytes": 1199,
+      "source_sha256": "7aa06156364410cd93dc88b7994f9d65b2d8e1e82585dc27363db7b6212f48ca",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "snapshots/server-readable/files/opt/jumpserver-installer-v4.10.19/compose/xrdp.yml",
+      "source_bytes": 529,
+      "source_sha256": "532aceef4684f8456b1187fafed42de49d6a59947b8af31321d55d90d9a5404c",
+      "status": "excluded",
+      "reason": "未经逐项重建的实机快照、运行记录或重复源码，不整包发布；上游模板已保留"
+    },
+    {
+      "source": "tools/collect_host.py",
+      "source_bytes": 4806,
+      "source_sha256": "e04ba898ccd3d43f3019ac2db9d472fdc9757fe625fdbfcb08153c1b2a6398ca",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "tools/collect_host.py",
+      "published_bytes": 4806,
+      "published_sha256": "e04ba898ccd3d43f3019ac2db9d472fdc9757fe625fdbfcb08153c1b2a6398ca"
+    },
+    {
+      "source": "tools/send-to-unitree.sh",
+      "source_bytes": 333,
+      "source_sha256": "1f27c6cd9580962bb551e704376b62bd611889ee2a0c28d12000dcea5e6d9fa5",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "tools/send-to-unitree.sh",
+      "published_bytes": 333,
+      "published_sha256": "1f27c6cd9580962bb551e704376b62bd611889ee2a0c28d12000dcea5e6d9fa5"
+    },
+    {
+      "source": "upstream/core-source.tar.gz",
+      "source_bytes": 4434070,
+      "source_sha256": "8ba06eda996947814da72c7b007d5fb808f2a7b398b07f2a4e68f2b65d8b60f7",
+      "status": "excluded",
+      "reason": "上游/历史冗余归档留本机；安装器已提供可读源码，Core 由固定镜像交付"
+    },
+    {
+      "source": "upstream/installer.tar.gz",
+      "source_bytes": 70854,
+      "source_sha256": "3a9fb2b5256ae60eff1340cca24a1546157d09fc174244b342f38e4117418f87",
+      "status": "excluded",
+      "reason": "上游/历史冗余归档留本机；安装器已提供可读源码，Core 由固定镜像交付"
+    },
+    {
+      "source": "upstream/jumpserver-edge-tools-v2.zip",
+      "source_bytes": 19494,
+      "source_sha256": "7f96c3339b377674ee5c8af3d6be9ede5f62fc5151e75d4c2b68c14e1eca1a56",
+      "status": "excluded",
+      "reason": "上游/历史冗余归档留本机；安装器已提供可读源码，Core 由固定镜像交付"
+    },
+    {
+      "source": "upstream/jumpserver-edge-tools.zip",
+      "source_bytes": 19494,
+      "source_sha256": "7f96c3339b377674ee5c8af3d6be9ede5f62fc5151e75d4c2b68c14e1eca1a56",
+      "status": "excluded",
+      "reason": "上游/历史冗余归档留本机；安装器已提供可读源码，Core 由固定镜像交付"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/.gitattributes",
+      "source_bytes": 63,
+      "source_sha256": "90a86b49d2d9e02abecc8b9fc3d41701563f4539c5b8840fcfef6f5acbdf1776",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/.gitattributes",
+      "published_bytes": 63,
+      "published_sha256": "90a86b49d2d9e02abecc8b9fc3d41701563f4539c5b8840fcfef6f5acbdf1776"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/.github/ISSUE_TEMPLATE/----.md",
+      "source_bytes": 181,
+      "source_sha256": "8d7f05ad26417c32faaef8f671255474d22d624220d03538e5c83b7b9caec93f",
+      "status": "excluded",
+      "reason": "上游仓库 CI/issue/release 配置不适用于本私有交付仓库"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/.github/ISSUE_TEMPLATE/bug---.md",
+      "source_bytes": 280,
+      "source_sha256": "0dc49ac40469cc6147657da557ac64406777366968503933a18c9f5c303303dd",
+      "status": "excluded",
+      "reason": "上游仓库 CI/issue/release 配置不适用于本私有交付仓库"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/.github/ISSUE_TEMPLATE/question.md",
+      "source_bytes": 206,
+      "source_sha256": "80ae7672eca24ff00f59dea2417ff6ecd3519b0d6f847c0fb751d4c3a8b0001f",
+      "status": "excluded",
+      "reason": "上游仓库 CI/issue/release 配置不适用于本私有交付仓库"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/.github/release-config.yml",
+      "source_bytes": 837,
+      "source_sha256": "13767d769f924b9f129500e26b61c1c08677ec15f926d0d744747a24786ee9df",
+      "status": "excluded",
+      "reason": "上游仓库 CI/issue/release 配置不适用于本私有交付仓库"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/.github/workflows/jms-generic-action-handler.yml",
+      "source_bytes": 289,
+      "source_sha256": "d0b4091a747361cd03d7cd4cfc77ba90ad5cee61ab51327491196b1698ad0cd5",
+      "status": "excluded",
+      "reason": "上游仓库 CI/issue/release 配置不适用于本私有交付仓库"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/.github/workflows/oss-sync.yml",
+      "source_bytes": 3004,
+      "source_sha256": "3dfce4543d8ae67db07ca34969ba6cd0167912dc58632c4e002c18bd531246d2",
+      "status": "excluded",
+      "reason": "上游仓库 CI/issue/release 配置不适用于本私有交付仓库"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/.github/workflows/release-drafter.yml",
+      "source_bytes": 1706,
+      "source_sha256": "dfc9d6704717f5daf0783145fc813522c5950579a98657bec057a1224fe33f23",
+      "status": "excluded",
+      "reason": "上游仓库 CI/issue/release 配置不适用于本私有交付仓库"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/.gitignore",
+      "source_bytes": 230,
+      "source_sha256": "6365a194421c039b68881373cfbefced22b13af7b4dad0446a9e4a7798649b86",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/.gitignore",
+      "published_bytes": 230,
+      "published_sha256": "6365a194421c039b68881373cfbefced22b13af7b4dad0446a9e4a7798649b86"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/LICENSE",
+      "source_bytes": 35148,
+      "source_sha256": "8b1ba204bb69a0ade2bfcf65ef294a920f6bb361b317dba43c7ef29d96332b9b",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/LICENSE",
+      "published_bytes": 35148,
+      "published_sha256": "8b1ba204bb69a0ade2bfcf65ef294a920f6bb361b317dba43c7ef29d96332b9b"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/README.md",
+      "source_bytes": 2225,
+      "source_sha256": "2e5b862e8bf098e9af8ed15e4e3277b3ebeb3275c86199fa3f3f93807fd2a800",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/README.md",
+      "published_bytes": 2225,
+      "published_sha256": "2e5b862e8bf098e9af8ed15e4e3277b3ebeb3275c86199fa3f3f93807fd2a800"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/cn-quick_start.sh",
+      "source_bytes": 2050,
+      "source_sha256": "2d3f720a160fd60d83f279f272474c304b172c82880b171405b5707987ef8d91",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/cn-quick_start.sh",
+      "published_bytes": 2050,
+      "published_sha256": "2d3f720a160fd60d83f279f272474c304b172c82880b171405b5707987ef8d91"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/cap_addon.yml",
+      "source_bytes": 375,
+      "source_sha256": "6dac5f66507ecbc98cd4d7aae5405e750797260fbc53d7e23cdb3cc644514276",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/cap_addon.yml",
+      "published_bytes": 375,
+      "published_sha256": "6dac5f66507ecbc98cd4d7aae5405e750797260fbc53d7e23cdb3cc644514276"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/celery.yml",
+      "source_bytes": 648,
+      "source_sha256": "d9a4797d2aebe039c052a5eccfd8a2d38bed95c00e26e5ff876ac22f96b6af4b",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/celery.yml",
+      "published_bytes": 648,
+      "published_sha256": "d9a4797d2aebe039c052a5eccfd8a2d38bed95c00e26e5ff876ac22f96b6af4b"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/chen.yml",
+      "source_bytes": 496,
+      "source_sha256": "c909e64f94aceff005ec3b9d04228c971a4666470d333468d90e5bebe02a3ce1",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/chen.yml",
+      "published_bytes": 496,
+      "published_sha256": "c909e64f94aceff005ec3b9d04228c971a4666470d333468d90e5bebe02a3ce1"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/core.yml",
+      "source_bytes": 694,
+      "source_sha256": "b895a0838fc454a5ca73d89e25ef4a15f2fb723a74bc2a85e8d912d395e5e2ba",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/core.yml",
+      "published_bytes": 694,
+      "published_sha256": "b895a0838fc454a5ca73d89e25ef4a15f2fb723a74bc2a85e8d912d395e5e2ba"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/es.yml",
+      "source_bytes": 929,
+      "source_sha256": "16a61a4408a05933fa1dd3805e634379a8edad124abf27b08d663c2e7d0969fa",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/es.yml",
+      "published_bytes": 929,
+      "published_sha256": "16a61a4408a05933fa1dd3805e634379a8edad124abf27b08d663c2e7d0969fa"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/facelive.yml",
+      "source_bytes": 465,
+      "source_sha256": "abad72e2664ca568f5ca478da7468d0d0ceddf65815170385a7f902e44f21a34",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/facelive.yml",
+      "published_bytes": 465,
+      "published_sha256": "abad72e2664ca568f5ca478da7468d0d0ceddf65815170385a7f902e44f21a34"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/init-db.yml",
+      "source_bytes": 325,
+      "source_sha256": "927272d2fc8393ee3f9fd8efbbe2b4b37f083493152a1da97e1fe4d9e43947b5",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/init-db.yml",
+      "published_bytes": 325,
+      "published_sha256": "927272d2fc8393ee3f9fd8efbbe2b4b37f083493152a1da97e1fe4d9e43947b5"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/koko.yml",
+      "source_bytes": 584,
+      "source_sha256": "c9e62224d13adc136b0b4a39b6ed79cd14d1fd715a0cca355e12d5950cb96fbb",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/koko.yml",
+      "published_bytes": 584,
+      "published_sha256": "c9e62224d13adc136b0b4a39b6ed79cd14d1fd715a0cca355e12d5950cb96fbb"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/lion.yml",
+      "source_bytes": 496,
+      "source_sha256": "8262e13eb69dcc5e882850a6b3c1140913112a2755943bb5f004e6e74a772f84",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/lion.yml",
+      "published_bytes": 496,
+      "published_sha256": "8262e13eb69dcc5e882850a6b3c1140913112a2755943bb5f004e6e74a772f84"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/loki.yml",
+      "source_bytes": 821,
+      "source_sha256": "a1d5ed3a881e6d506d3ebc55aea5b1e6b572234d23e350f44b730e8b31e9a978",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/loki.yml",
+      "published_bytes": 821,
+      "published_sha256": "a1d5ed3a881e6d506d3ebc55aea5b1e6b572234d23e350f44b730e8b31e9a978"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/magnus.yml",
+      "source_bytes": 550,
+      "source_sha256": "f883e6d05c8aa4a594e1c0c09fcd05291d33860883ff591f0d5ca671b711d71c",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/magnus.yml",
+      "published_bytes": 550,
+      "published_sha256": "f883e6d05c8aa4a594e1c0c09fcd05291d33860883ff591f0d5ca671b711d71c"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/mariadb.yml",
+      "source_bytes": 686,
+      "source_sha256": "1088788ac6bb5314b55ab04997665f1bef8563547fc63ec5f825cf799802f46e",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/mariadb.yml",
+      "published_bytes": 686,
+      "published_sha256": "1088788ac6bb5314b55ab04997665f1bef8563547fc63ec5f825cf799802f46e"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/minio.yml",
+      "source_bytes": 633,
+      "source_sha256": "29d783a964f9559c079b3f2d399c57adaae57b9ef167c1e2564bded9e5dd9af4",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/minio.yml",
+      "published_bytes": 633,
+      "published_sha256": "29d783a964f9559c079b3f2d399c57adaae57b9ef167c1e2564bded9e5dd9af4"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/mysql.yml",
+      "source_bytes": 606,
+      "source_sha256": "2ad99ac2b02840e677d42fd735b09e9390da7edf3af04247e585fae3cb5e6e3d",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/mysql.yml",
+      "published_bytes": 606,
+      "published_sha256": "2ad99ac2b02840e677d42fd735b09e9390da7edf3af04247e585fae3cb5e6e3d"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/nec.yml",
+      "source_bytes": 537,
+      "source_sha256": "1bdff6a9ad9437a908208f719807b6d4ca4361d69bed37c35fdbba1e3bc8cc8f",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/nec.yml",
+      "published_bytes": 537,
+      "published_sha256": "1bdff6a9ad9437a908208f719807b6d4ca4361d69bed37c35fdbba1e3bc8cc8f"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/network-v6.yml",
+      "source_bytes": 179,
+      "source_sha256": "cda149c77841479ab90f24bc851dcc9c9a5f65955db045c8a93b1597b37bc000",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/network-v6.yml",
+      "published_bytes": 179,
+      "published_sha256": "cda149c77841479ab90f24bc851dcc9c9a5f65955db045c8a93b1597b37bc000"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/network.yml",
+      "source_bytes": 117,
+      "source_sha256": "d751ea8ff379c94ab3ae3a2047b8b538b960776350acf59bafbc614cf0d920ea",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/network.yml",
+      "published_bytes": 117,
+      "published_sha256": "d751ea8ff379c94ab3ae3a2047b8b538b960776350acf59bafbc614cf0d920ea"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/openbao.yml",
+      "source_bytes": 1805,
+      "source_sha256": "fb50e848e38721b0d564358acc81dc922781040a1a0eddef069cf42cc8e0c5f1",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/openbao.yml",
+      "published_bytes": 1805,
+      "published_sha256": "fb50e848e38721b0d564358acc81dc922781040a1a0eddef069cf42cc8e0c5f1"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/panda.yml",
+      "source_bytes": 507,
+      "source_sha256": "91dc2cff38e22ac3a75850326e0a6387d14551d0b0c3651087c8a584f5667f50",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/panda.yml",
+      "published_bytes": 507,
+      "published_sha256": "91dc2cff38e22ac3a75850326e0a6387d14551d0b0c3651087c8a584f5667f50"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/postgresql.port.yml",
+      "source_bytes": 76,
+      "source_sha256": "9ab046d06da92f8728cf2619dcb188e16cfe2aac816c7c1dde59249f1b1a54d1",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/postgresql.port.yml",
+      "published_bytes": 76,
+      "published_sha256": "9ab046d06da92f8728cf2619dcb188e16cfe2aac816c7c1dde59249f1b1a54d1"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/postgresql.yml",
+      "source_bytes": 503,
+      "source_sha256": "b11a41050726a6ffca2301d6023958e91566137be313552584e0c0a7e7a7ed7d",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/postgresql.yml",
+      "published_bytes": 503,
+      "published_sha256": "b11a41050726a6ffca2301d6023958e91566137be313552584e0c0a7e7a7ed7d"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/razor.yml",
+      "source_bytes": 552,
+      "source_sha256": "ad45e4e0faaca9a44d6268b6c2c5c1479dc12d630291ff5775251f3431d749e9",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/razor.yml",
+      "published_bytes": 552,
+      "published_sha256": "ad45e4e0faaca9a44d6268b6c2c5c1479dc12d630291ff5775251f3431d749e9"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/receptor.yml",
+      "source_bytes": 501,
+      "source_sha256": "63eab2afc36d7ece9c36643719bc60b03ca983de6c97f050cc217040797949e4",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/receptor.yml",
+      "published_bytes": 501,
+      "published_sha256": "63eab2afc36d7ece9c36643719bc60b03ca983de6c97f050cc217040797949e4"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/redis.port.yml",
+      "source_bytes": 66,
+      "source_sha256": "ca096830c0cf603f5d753874e7f85e3c400bb387633a8ef68530a241baf9bdba",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/redis.port.yml",
+      "published_bytes": 66,
+      "published_sha256": "ca096830c0cf603f5d753874e7f85e3c400bb387633a8ef68530a241baf9bdba"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/redis.yml",
+      "source_bytes": 646,
+      "source_sha256": "0ba26d6278c2a5121b90fea33d6f29b110c787723a3a070ff681ab8762347f5b",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/redis.yml",
+      "published_bytes": 646,
+      "published_sha256": "0ba26d6278c2a5121b90fea33d6f29b110c787723a3a070ff681ab8762347f5b"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/video.yml",
+      "source_bytes": 488,
+      "source_sha256": "61ae6409e941082c6395c80c883866ef5b0c568ccafeec82b25395f1bd0985e3",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/video.yml",
+      "published_bytes": 488,
+      "published_sha256": "61ae6409e941082c6395c80c883866ef5b0c568ccafeec82b25395f1bd0985e3"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/web.http.yml",
+      "source_bytes": 55,
+      "source_sha256": "3a0eaf462bb9891f6d29f5fc30be9d6622302964e2bb0beee29ce13cbc1d9e84",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/web.http.yml",
+      "published_bytes": 55,
+      "published_sha256": "3a0eaf462bb9891f6d29f5fc30be9d6622302964e2bb0beee29ce13cbc1d9e84"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/web.https.yml",
+      "source_bytes": 361,
+      "source_sha256": "690aefe26ff78e9ade9fd900fb18ad4323c6b4c415163bcf494e4656b7b6a815",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/web.https.yml",
+      "published_bytes": 361,
+      "published_sha256": "690aefe26ff78e9ade9fd900fb18ad4323c6b4c415163bcf494e4656b7b6a815"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/web.yml",
+      "source_bytes": 1213,
+      "source_sha256": "b2a406f539f1e2726d375991c8112081479c0c9a3f3e6d5ea62bb462d2270fb6",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/web.yml",
+      "published_bytes": 1213,
+      "published_sha256": "b2a406f539f1e2726d375991c8112081479c0c9a3f3e6d5ea62bb462d2270fb6"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/compose/xrdp.yml",
+      "source_bytes": 529,
+      "source_sha256": "532aceef4684f8456b1187fafed42de49d6a59947b8af31321d55d90d9a5404c",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/compose/xrdp.yml",
+      "published_bytes": 529,
+      "published_sha256": "532aceef4684f8456b1187fafed42de49d6a59947b8af31321d55d90d9a5404c"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/config-example.txt",
+      "source_bytes": 8033,
+      "source_sha256": "63fbeadb48ccd29dffcfbfce7f1e5850dd4d308ff1373e913885c693329b4e32",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/config-example.txt",
+      "published_bytes": 8033,
+      "published_sha256": "63fbeadb48ccd29dffcfbfce7f1e5850dd4d308ff1373e913885c693329b4e32"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/config_init/README.md",
+      "source_bytes": 119,
+      "source_sha256": "ee8971e4c4d1f9f229361e6d0996839448563dcb5c9a476a019189f8bcef544d",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/config_init/README.md",
+      "published_bytes": 119,
+      "published_sha256": "ee8971e4c4d1f9f229361e6d0996839448563dcb5c9a476a019189f8bcef544d"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/config_init/loki/loki.yaml",
+      "source_bytes": 1109,
+      "source_sha256": "da0e1aef70b98da2af56c8cfd74fab062011e77fe9b537d67b9fe2b3dee31f6a",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/config_init/loki/loki.yaml",
+      "published_bytes": 1109,
+      "published_sha256": "da0e1aef70b98da2af56c8cfd74fab062011e77fe9b537d67b9fe2b3dee31f6a"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/config_init/loki/promtail.yml",
+      "source_bytes": 2791,
+      "source_sha256": "be318235e3dcb4e858856d0c8200b586f1d3e7a26dcad45112f1d42ed2de7ed2",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/config_init/loki/promtail.yml",
+      "published_bytes": 2791,
+      "published_sha256": "be318235e3dcb4e858856d0c8200b586f1d3e7a26dcad45112f1d42ed2de7ed2"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/config_init/nginx/lb_http_server.conf",
+      "source_bytes": 1759,
+      "source_sha256": "438a29b8203375eacf45cb9c00845daf1ea5a278c378246559db2c3da0e932dc",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/config_init/nginx/lb_http_server.conf",
+      "published_bytes": 1759,
+      "published_sha256": "438a29b8203375eacf45cb9c00845daf1ea5a278c378246559db2c3da0e932dc"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/config_init/openbao/bootstrap.sh",
+      "source_bytes": 3919,
+      "source_sha256": "58354fd1411b7fda175a53e24e2d0c9bda771ba1dcfa44c5cd2387e22e1bcb0d",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/config_init/openbao/bootstrap.sh",
+      "published_bytes": 3919,
+      "published_sha256": "58354fd1411b7fda175a53e24e2d0c9bda771ba1dcfa44c5cd2387e22e1bcb0d"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/config_init/openbao/server.hcl",
+      "source_bytes": 272,
+      "source_sha256": "a15f53b7e956cfa26f4010002f19239bce9222519ec312fc66a3b0b91fab4b6f",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/config_init/openbao/server.hcl",
+      "published_bytes": 272,
+      "published_sha256": "a15f53b7e956cfa26f4010002f19239bce9222519ec312fc66a3b0b91fab4b6f"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/config_init/redis/redis.conf",
+      "source_bytes": 430,
+      "source_sha256": "071ac101ad98025fab1b00f22ac53e037e34289cbc7ba9dda401194fdbeb67ac",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/config_init/redis/redis.conf",
+      "published_bytes": 430,
+      "published_sha256": "071ac101ad98025fab1b00f22ac53e037e34289cbc7ba9dda401194fdbeb67ac"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/jmsctl.sh",
+      "source_bytes": 8319,
+      "source_sha256": "14c47b8e2bdf310986d477f2189c2ece4aaf6cd13cb66403cf66efb7531ac795",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/jmsctl.sh",
+      "published_bytes": 8319,
+      "published_sha256": "14c47b8e2bdf310986d477f2189c2ece4aaf6cd13cb66403cf66efb7531ac795"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/locale/en/LC_MESSAGES/jumpserver-installer.mo",
+      "source_bytes": 629,
+      "source_sha256": "1abf0fbaaeecb220d08df6be83f4cb4ac1414c24791d438cec15192ded9a25b7",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/locale/en/LC_MESSAGES/jumpserver-installer.mo",
+      "published_bytes": 629,
+      "published_sha256": "1abf0fbaaeecb220d08df6be83f4cb4ac1414c24791d438cec15192ded9a25b7"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/locale/en/LC_MESSAGES/jumpserver-installer.po",
+      "source_bytes": 14811,
+      "source_sha256": "e97b0ab39c61406c356fd205b4cf0c54cc5f45cb4a0330c1f0227d78fea96675",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/locale/en/LC_MESSAGES/jumpserver-installer.po",
+      "published_bytes": 14811,
+      "published_sha256": "e97b0ab39c61406c356fd205b4cf0c54cc5f45cb4a0330c1f0227d78fea96675"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/locale/zh_CN/LC_MESSAGES/jumpserver-installer.mo",
+      "source_bytes": 14069,
+      "source_sha256": "5695aab992bc4a1139f02ff0c8f8cd92bf3469654e4faaea7d843d0a4125698b",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/locale/zh_CN/LC_MESSAGES/jumpserver-installer.mo",
+      "published_bytes": 14069,
+      "published_sha256": "5695aab992bc4a1139f02ff0c8f8cd92bf3469654e4faaea7d843d0a4125698b"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/locale/zh_CN/LC_MESSAGES/jumpserver-installer.po",
+      "source_bytes": 19266,
+      "source_sha256": "f5bb7782495edf3bc6fd5d0c67bd0b0b3738b722ae9fb44f24067d0fa23c1e77",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/locale/zh_CN/LC_MESSAGES/jumpserver-installer.po",
+      "published_bytes": 19266,
+      "published_sha256": "f5bb7782495edf3bc6fd5d0c67bd0b0b3738b722ae9fb44f24067d0fa23c1e77"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/locale/zh_Hant/LC_MESSAGES/jumpserver-installer.mo",
+      "source_bytes": 13849,
+      "source_sha256": "2435440608366f89e1a0851499a736797ae5efec9afd848da5d13b801cf8a4fa",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/locale/zh_Hant/LC_MESSAGES/jumpserver-installer.mo",
+      "published_bytes": 13849,
+      "published_sha256": "2435440608366f89e1a0851499a736797ae5efec9afd848da5d13b801cf8a4fa"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/locale/zh_Hant/LC_MESSAGES/jumpserver-installer.po",
+      "source_bytes": 19281,
+      "source_sha256": "139ea54a3006dc6c0077b6fc93e5990f1dd810e6d819fe7aef5820acb5e763d2",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/locale/zh_Hant/LC_MESSAGES/jumpserver-installer.po",
+      "published_bytes": 19281,
+      "published_sha256": "139ea54a3006dc6c0077b6fc93e5990f1dd810e6d819fe7aef5820acb5e763d2"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/quick_start.sh",
+      "source_bytes": 1929,
+      "source_sha256": "aef659901945c4a2536c791c0c2d6b1692dba433ae8fdc089b9a5e025a9c8072",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/quick_start.sh",
+      "published_bytes": 1929,
+      "published_sha256": "aef659901945c4a2536c791c0c2d6b1692dba433ae8fdc089b9a5e025a9c8072"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/scripts/0_prepare.sh",
+      "source_bytes": 3111,
+      "source_sha256": "e1792fe8cd7d4c8f794ef80c2473404f3d3f7f7ad16551ba20ba6989bfab0c93",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/scripts/0_prepare.sh",
+      "published_bytes": 3111,
+      "published_sha256": "e1792fe8cd7d4c8f794ef80c2473404f3d3f7f7ad16551ba20ba6989bfab0c93"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/scripts/1_config_jumpserver.sh",
+      "source_bytes": 8994,
+      "source_sha256": "9c8922ac8cea25c69fd1082d649d89d46c5e6a437f533a580e9f47514f0b8445",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/scripts/1_config_jumpserver.sh",
+      "published_bytes": 8994,
+      "published_sha256": "9c8922ac8cea25c69fd1082d649d89d46c5e6a437f533a580e9f47514f0b8445"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/scripts/2_install_docker.sh",
+      "source_bytes": 4778,
+      "source_sha256": "5d60fa13a9e7728a05b1cb691510f78b92f4437bdd59080a0f00c0e700cc68c8",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/scripts/2_install_docker.sh",
+      "published_bytes": 4778,
+      "published_sha256": "5d60fa13a9e7728a05b1cb691510f78b92f4437bdd59080a0f00c0e700cc68c8"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/scripts/3_load_images.sh",
+      "source_bytes": 1400,
+      "source_sha256": "ce582bd64e50581dc984cf756433f619c314be6263a0673ba925ff2600a4d0e0",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/scripts/3_load_images.sh",
+      "published_bytes": 1400,
+      "published_sha256": "ce582bd64e50581dc984cf756433f619c314be6263a0673ba925ff2600a4d0e0"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/scripts/4_install_jumpserver.sh",
+      "source_bytes": 3697,
+      "source_sha256": "13c53d451e0825261c9a34259f773ac3e22453fc6b485133941f2de92d738790",
+      "status": "modified",
+      "reason": "移除上游初始密码展示文字；保留安装流程与许可",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/scripts/4_install_jumpserver.sh",
+      "published_bytes": 3721,
+      "published_sha256": "9e83a99d11333bcb8ebe90a62e22661964173ddd4ce8832d3e4ee084d4dab9d6"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/scripts/5_db_backup.sh",
+      "source_bytes": 6748,
+      "source_sha256": "adb62c351968d6b8322d3fd340a7155bccc755bdf502902718497bc5216903c0",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/scripts/5_db_backup.sh",
+      "published_bytes": 6748,
+      "published_sha256": "adb62c351968d6b8322d3fd340a7155bccc755bdf502902718497bc5216903c0"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/scripts/6_db_restore.sh",
+      "source_bytes": 5371,
+      "source_sha256": "b092104acd524b26f4344f431718c520366435e5403f85b48525c6e6a083fdd4",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/scripts/6_db_restore.sh",
+      "published_bytes": 5371,
+      "published_sha256": "b092104acd524b26f4344f431718c520366435e5403f85b48525c6e6a083fdd4"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/scripts/7_upgrade.sh",
+      "source_bytes": 11745,
+      "source_sha256": "c6b6088834e9b1074f7a15ddde2b91c104014df046a6ae4bb2b772d97978739d",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/scripts/7_upgrade.sh",
+      "published_bytes": 11745,
+      "published_sha256": "c6b6088834e9b1074f7a15ddde2b91c104014df046a6ae4bb2b772d97978739d"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/scripts/8_uninstall.sh",
+      "source_bytes": 3269,
+      "source_sha256": "34c8bf15d16afe9feabac2df124c3d07f5cff172121def7988259c0ef1fd0b6f",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/scripts/8_uninstall.sh",
+      "published_bytes": 3269,
+      "published_sha256": "34c8bf15d16afe9feabac2df124c3d07f5cff172121def7988259c0ef1fd0b6f"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/scripts/config.sh",
+      "source_bytes": 7573,
+      "source_sha256": "e73e438e5d9f4907c8e037db441d542526ff5fbcaca0ce5e4cc35b150d930636",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/scripts/config.sh",
+      "published_bytes": 7573,
+      "published_sha256": "e73e438e5d9f4907c8e037db441d542526ff5fbcaca0ce5e4cc35b150d930636"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/scripts/const.sh",
+      "source_bytes": 1145,
+      "source_sha256": "2d22a38ecf42d6d96e931453ebd78cafb42ce37a43e222aa29d96b95abd4be35",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/scripts/const.sh",
+      "published_bytes": 1145,
+      "published_sha256": "2d22a38ecf42d6d96e931453ebd78cafb42ce37a43e222aa29d96b95abd4be35"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/scripts/docker/docker.service",
+      "source_bytes": 1182,
+      "source_sha256": "da12f31005bbb34f23fa05b61a451abf717f50edc26f41fd6d8ddd25a831127c",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/scripts/docker/docker.service",
+      "published_bytes": 1182,
+      "published_sha256": "da12f31005bbb34f23fa05b61a451abf717f50edc26f41fd6d8ddd25a831127c"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/scripts/gists/common.sh",
+      "source_bytes": 4541,
+      "source_sha256": "071228422f684c3671777a70232685d8053a2091eba5cf96af016e733a98c22c",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/scripts/gists/common.sh",
+      "published_bytes": 4541,
+      "published_sha256": "071228422f684c3671777a70232685d8053a2091eba5cf96af016e733a98c22c"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/scripts/gists/conf.sh",
+      "source_bytes": 6571,
+      "source_sha256": "ccdc34e269974eeb31a0601cff435c52d6e211b26c204eefa22593a96808d335",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/scripts/gists/conf.sh",
+      "published_bytes": 6571,
+      "published_sha256": "ccdc34e269974eeb31a0601cff435c52d6e211b26c204eefa22593a96808d335"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/scripts/gists/image.sh",
+      "source_bytes": 4830,
+      "source_sha256": "a376568120161a3c382879cdaa0567e5dcc348bcdda2c70baeacdd2a063d97b4",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/scripts/gists/image.sh",
+      "published_bytes": 4830,
+      "published_sha256": "a376568120161a3c382879cdaa0567e5dcc348bcdda2c70baeacdd2a063d97b4"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/scripts/gists/kotl.sh",
+      "source_bytes": 4398,
+      "source_sha256": "cdaabb0b1756eae7fae9d289b6ae8617c7eed3b5b4feb35f09a8729f284dd5d9",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/scripts/gists/kotl.sh",
+      "published_bytes": 4398,
+      "published_sha256": "cdaabb0b1756eae7fae9d289b6ae8617c7eed3b5b4feb35f09a8729f284dd5d9"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/scripts/gists/openbao.sh",
+      "source_bytes": 4668,
+      "source_sha256": "491f5ddfb1ab8fc11cb8741b7b157bf301e4fd5493bdcb1944adca5e10989e32",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/scripts/gists/openbao.sh",
+      "published_bytes": 4668,
+      "published_sha256": "491f5ddfb1ab8fc11cb8741b7b157bf301e4fd5493bdcb1944adca5e10989e32"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/scripts/gists/service.sh",
+      "source_bytes": 8665,
+      "source_sha256": "20f283d458806a82aa7d2b869d054d6827794641cfba0f6e418e74fd37077924",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/scripts/gists/service.sh",
+      "published_bytes": 8665,
+      "published_sha256": "20f283d458806a82aa7d2b869d054d6827794641cfba0f6e418e74fd37077924"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/scripts/logo.txt",
+      "source_bytes": 1366,
+      "source_sha256": "79df272d5206d9844d6a7f9a00fc85c1bcea416e717d4b2068c7049817c936fd",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/scripts/logo.txt",
+      "published_bytes": 1366,
+      "published_sha256": "79df272d5206d9844d6a7f9a00fc85c1bcea416e717d4b2068c7049817c936fd"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/scripts/utils.sh",
+      "source_bytes": 343,
+      "source_sha256": "5f680370059351633966134984d2291c82970250fcea974b40d37988e2453367",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/scripts/utils.sh",
+      "published_bytes": 343,
+      "published_sha256": "5f680370059351633966134984d2291c82970250fcea974b40d37988e2453367"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/static.env",
+      "source_bytes": 27,
+      "source_sha256": "ac05d0b7518ff5a0f290276fde66f486ef7868497fac3a6964f56bcc069e77ba",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/static.env",
+      "published_bytes": 27,
+      "published_sha256": "ac05d0b7518ff5a0f290276fde66f486ef7868497fac3a6964f56bcc069e77ba"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/utils/build.sh",
+      "source_bytes": 767,
+      "source_sha256": "af47161035015ba720f195495e3954edc3d243d794cb0d87bbd582db3bf0b9be",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/utils/build.sh",
+      "published_bytes": 767,
+      "published_sha256": "af47161035015ba720f195495e3954edc3d243d794cb0d87bbd582db3bf0b9be"
+    },
+    {
+      "source": "upstream/jumpserver-installer-v4.10.19/utils/messages.sh",
+      "source_bytes": 1410,
+      "source_sha256": "77ff2ff5c08edb571e0c75d6a1e512636ef0bcd55c795d7bf233bacff7474932",
+      "status": "unchanged",
+      "reason": "字节原样保留",
+      "published_path": "upstream/jumpserver-installer-v4.10.19/utils/messages.sh",
+      "published_bytes": 1410,
+      "published_sha256": "77ff2ff5c08edb571e0c75d6a1e512636ef0bcd55c795d7bf233bacff7474932"
+    },
+    {
+      "source": "users/jumpserver_users_20261111-NO-CREDENTIALS.csv",
+      "source_bytes": 3779,
+      "source_sha256": "c31bb35d78faaa91e2790bf551c65b7f9364f2f770b7c0ab72de29eb93b92086",
+      "status": "excluded",
+      "reason": "真实用户表属于个人/业务数据，即便无凭据列仍不发布"
+    },
+    {
+      "source": "users/jumpserver_users_remaining19_20261111-NO-CREDENTIALS.csv",
+      "source_bytes": 3596,
+      "source_sha256": "38980304542969790a75c69ab367bd9699eb1f9aecac033d2e6e905adf1dd661",
+      "status": "excluded",
+      "reason": "真实用户表属于个人/业务数据，即便无凭据列仍不发布"
+    },
+    {
+      "source": "users/user_template-NO-CREDENTIALS.csv",
+      "source_bytes": 1091,
+      "source_sha256": "bd209fb61a66afc5e9370e5161a4c12393aadb68a16a0d3453117fe5fa2dfd14",
+      "status": "excluded",
+      "reason": "真实用户表属于个人/业务数据，即便无凭据列仍不发布"
+    }
+  ]
+}

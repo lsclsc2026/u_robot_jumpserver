@@ -1,0 +1,8 @@
+{
+  "ref": "jumpserver/ansible-executor:latest",
+  "manifest_digest": "sha256:42dd7564a9a50d239ae1502b426b132f3431a357827f55f5fa8fe549a7430750",
+  "image_id": "sha256:f0b630feace885d41d407dc2548358c460afdc62919d8d159a5d1a0ff9fa557c",
+  "file": "jumpserver_ansible-executor_pinned.tar",
+  "sha256": "748b22003de349671375c9a7253ccb30008c382a6212bc6f61bde225c3b333e2",
+  "size": 329164800
+}

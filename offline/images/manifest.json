@@ -1,0 +1,42 @@
+[
+  {
+    "ref": "jumpserver/core:v4.10.19-ce",
+    "manifest_digest": "sha256:99b2fd9100b0434ba4c30ff135c2b41387776a141f06d0c6bb39dc0d9b6321cc",
+    "image_id": "sha256:fe7143586510e49831504e0fbfae16d4e06784c52740ec0310e9598d3585602a",
+    "file": "jumpserver_core_v4.10.19-ce.tar",
+    "sha256": "a36c7bbdd771059f1d596c18d3b77da7ad960ece443be1f87e0073a494265c14",
+    "size": 292944896
+  },
+  {
+    "ref": "jumpserver/koko:v4.10.19-ce",
+    "manifest_digest": "sha256:790118b3a21e78e25f8114cc8b8c2b8b29bc1e64914bf3ff81ee6a1284690b20",
+    "image_id": "sha256:ca11adce835946e0a79713de5f896901b6775d2a11870dfe2cc373509e8f1679",
+    "file": "jumpserver_koko_v4.10.19-ce.tar",
+    "sha256": "b8c86317bb7fc88e8f6133185e50b814e700d884ad24d64a4b9613d60de33282",
+    "size": 229022208
+  },
+  {
+    "ref": "jumpserver/web:v4.10.19-ce",
+    "manifest_digest": "sha256:ecbeb1319c1b4ecb8224d94dde5e8799b1eba46c127da72965554b3f873988f9",
+    "image_id": "sha256:58c32889986d955c03328ceac1fce95fdc307fe6dcd76eb9c66c228901fa5d29",
+    "file": "jumpserver_web_v4.10.19-ce.tar",
+    "sha256": "e6f25c54fee36b3413849fdfbc522b4ff0a9fac2b694b1029bfbf5eb292a701e",
+    "size": 100617216
+  },
+  {
+    "ref": "postgres:16.15-bookworm",
+    "manifest_digest": "sha256:1938c16e9d2f10a6a3623b344b64ae8d45f407f2c5f34f0979468bb689b9227a",
+    "image_id": "sha256:5f71c21b69a7977b82247582e2e731ed76bdebaadb7dd7945ed76bcc9ed06632",
+    "file": "postgres_16.15-bookworm.tar",
+    "sha256": "fdd3c6b032c94d37c717bbe57a834560ca02a483f19ab319f87e53b2c4769507",
+    "size": 155136000
+  },
+  {
+    "ref": "redis:7.4.10-bookworm",
+    "manifest_digest": "sha256:1feed93082d872fa051fb6b5787a247d39e9c0d00357404c3a6554ba5e4a5315",
+    "image_id": "sha256:c0a0a2a0551f7339f9509d1f9d80296b5486e2d86d1265ae29bec790f1ab4701",
+    "file": "redis_7.4.10-bookworm.tar",
+    "sha256": "01365eb5ca38fb3b4eeeb0f8d11f61bebf888083fe7eeddfdaff7124edea7e01",
+    "size": 43600896
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-13T17:38:05+08:00",
+  "source": "Live JumpServer web pages, no asset connections",
+  "capture": "Chrome screenshot; dashboard captures the summary region above user rankings",
+  "files": [
+    {
+      "file": "login.png",
+      "sha256": "3333eb3dfb99b32ef90f2840264badf50103f172a0ff11577c6e0e66ddc36e1d",
+      "bytes": 203809
+    },
+    {
+      "file": "admin-dashboard.png",
+      "sha256": "b3032f6ce00b48331db1a56d8a307757cc70295d710a70d3a91286637e22fd05",
+      "bytes": 126851
+    },
+    {
+      "file": "admin-assets.png",
+      "sha256": "f72b0ea2473d62afdbbb017216a24fabe8fcc753910a4f056a371cd5175e6310",
+      "bytes": 136998
+    },
+    {
+      "file": "admin-permissions.png",
+      "sha256": "77697bb53b703ef64308ae13bb19c1472ccd192c2e4e2d4fdd637a626ba97739",
+      "bytes": 122638
+    },
+    {
+      "file": "user-assets.png",
+      "sha256": "a105e91a9351249dfde8e54d7f73c29e46317fd8c296a899d041393241697866",
+      "bytes": 107517
+    }
+  ]
+}
