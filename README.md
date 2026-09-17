@@ -1,4 +1,4 @@
-# u_robot_jumpserver · 机器人开发环境堡垒机
+# 机器人开发环境堡垒机
 
 面向团队的 JumpServer 社区版部署与 Ubuntu 下位机接入源码：通过网页终端、远程桌面、个人账号授权和会话审计，统一进入机器人开发环境。服务器采用 JumpServer v4.10.19-ce，资产网络采用 Tailscale，下位机提供普通 OpenSSH 与 xrdp。
 
